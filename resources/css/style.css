@@ -87,6 +87,7 @@ h3 {
 .fontbox {
     display: inline-block;
     width: 40%;
+    margin-right: 120px;
 }
 
 .underline {
