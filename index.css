@@ -1,0 +1,142 @@
+
+    /* This below in body gave the boxes issues when resizing
+
+    margin: 20px 150px; 
+    */
+h1 {
+    margin: 10px 140px;
+    padding: 0px;
+}
+
+/* Colors */
+
+.container1 {
+    border: 2px solid gray;
+    height: 400px;
+    margin: 10px 140px;
+    padding: 0px;
+    min-width: 500px;
+}
+
+.container2 {
+    border: 2px solid gray;
+    height: 500px;
+    margin: 10px 140px;
+    padding: 0px;
+    min-width: 500px;
+}
+
+.container3 {
+    border: 2px solid gray;
+    height: 520px;
+    margin: 10px 140px;
+    padding: 0px;
+    min-width: 500px;
+}
+
+h2 {
+    text-align: left;
+    margin: 30px 10px;
+}
+
+.colorcontainer {
+    display: block; 
+    width: 100%;
+    margin: 2px 10px;      
+}
+
+.box {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    /* Min-height solves issue of boxes when resizing */
+    min-height: 100px;
+}
+
+#color1 {
+    background-color: #2d5dcc;
+    color: white;
+}
+
+#color2 {
+    background-color: #d957d9;
+}
+
+#color3 {
+    background-color: #4fe0b0;
+}
+
+#color4 {
+    background-color: #efd9ca;
+}
+
+/* Fonts */
+
+h3 {
+    font-size: 24px;
+}
+
+.fontcontainer{
+  
+    width: 100%;
+    margin: 2px 10px;
+    font-size: 18px;   
+}
+
+.fontbox {
+    display: inline-block;
+    width: 40%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.nunito {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.poppings {
+  font-family: 'Poppins', sans-serif;  
+}
+
+.source {
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* Text Styles */
+
+.textcontainer {
+    width: 100%;
+    margin: 2px 10px;
+    font-size: 18px;
+    
+}
+
+.h1style {
+    font-weight: 700 (bold);
+    font-size: 26px;
+    font-family: 'Nunito';
+
+}
+
+.h2style {
+    font-weight: 500 (bold);
+    font-size: 18px;
+    font-family: 'Poppins';
+    
+}
+.pstyle {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Poppins";
+}
